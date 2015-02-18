@@ -17,10 +17,10 @@ if __name__ == '__main__':
     while not is_quit:
         while not is_login:
             try:
-                # username = raw_input('username:')
-                # password = getpass.getpass('password:')
-                username = 'kom9ing@163.com'
-                password = '3310571'
+                username = raw_input('username:')
+                password = getpass.getpass('password:')
+                # username = 'kom9ing@163.com'
+                # password = '3310571'
             except EOFError:
                 print 'EOFError'
                 is_quit = True
