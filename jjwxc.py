@@ -19,8 +19,6 @@ if __name__ == '__main__':
             try:
                 username = raw_input('username:')
                 password = getpass.getpass('password:')
-                # username = 'kom9ing@163.com'
-                # password = '3310571'
             except EOFError:
                 print 'EOFError'
                 is_quit = True
